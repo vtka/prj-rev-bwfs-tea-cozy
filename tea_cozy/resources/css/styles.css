@@ -1,0 +1,169 @@
+/* Global style*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+
+div {
+    display: block;
+}
+
+a { 
+  color: seashell; 
+}
+
+h1, h2, h3, h4, h5 {
+  color: seashell;
+}
+
+/* Header styles*/
+header {
+  display: inline-flex;
+  height: 75px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  z-index: 5;
+  background-color: black;
+  top: 0px;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+  max-width: 150px;
+
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+/*Main div*/
+.main {
+    margin: auto;
+    display: block;
+}
+
+/* Our Mission styles*/
+#mission {
+  background-image: url(../media/background.jpg);
+  background-size: cover;
+  height: 700px;
+  padding-top: 70px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/* Tea of the Month styles*/
+
+#tea_month {
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#tea_month .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+p {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+/*Locations*/
+
+#location {
+  background-image: url(../media/coffee.jpg);
+  min-height: 500px;
+  padding-top: 70px;
+  min-width: 1200px;
+  margin-top: 50px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.content_location {
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+  opacity: 1;
+  top: 80px;
+  position: relative;
+  padding: 10px;
+
+}
+
+#location p {
+  font-weight: normal;
+}
+
+#location h2 {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  padding: 0;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/*Contact*/
+
+.contact {
+  text-align: center;
+  height: 200px;
+  padding-left: 20px;
+
+}
+
+/*Footer*/
+
+footer {
+  text-align: left;
+  position: relative;
+  float: left;
+  width: 1400px;
+  padding-left: 20px;
+}
+
+/*Ending*/
